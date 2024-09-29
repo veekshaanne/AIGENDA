@@ -6,7 +6,7 @@ from PIL import Image
 import google.generativeai as genai
 
 # Configure Google Generative AI with your API key
-genai.configure(api_key="AIzaSyBa41vppxqhrkCtvuk87n0KBDNsaUrzXsM")  # Replace with your actual API key
+genai.configure(api_key="")  # Replace with your actual API key
 
 # Function to generate a response using Google Generative AI
 def get_gemini_response(input_text, image_details, prompt):
